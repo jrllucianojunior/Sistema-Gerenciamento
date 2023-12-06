@@ -1,0 +1,73 @@
+
+
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.panel {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Ajuste opcional para alinhar os elementos do último item à direita */
+.flex-item:last-child {
+    margin-right: 0;
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #2980b9;
+}
+
+input[value = "Cancelar" ]{
+    background-color: red;
+}
+
+input[value = "Cancelar" ]:hover{
+    background-color: red;
+}
+
+

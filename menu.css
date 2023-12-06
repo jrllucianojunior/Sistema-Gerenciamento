@@ -1,0 +1,136 @@
+.navbar{
+    height: 5%;
+}
+/* Estilo para o menu lateral */
+.sidebar {
+    height: calc(100% );
+    width: 18%;
+    position: fixed;
+    top: 10%; /* Altura da barra de navegação */
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+/* Estilo para os itens do menu */
+.sidebar a {
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+/* Estilo para os itens do menu quando hover */
+.sidebar a:hover {
+    background-color: #b6caeb;
+  /*   margin-top: 70px; */
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Estilo para o conteúdo da página */
+.content {
+    margin-top: 70px; /* Altura da barra de navegação */
+    margin-left: 18%; /* Largura da barra lateral */
+    padding-top: 20px; 
+    padding-left: 20px; /* Espaço para a tabela */
+}
+
+/* Estilo para os subitens do menu */
+.submenu {
+    display: none;
+    list-style: none;
+    padding-left: 20px;
+}
+
+/* Estilo para mostrar os subitens quando o menu principal é clicado */
+.active {
+    display: block;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    width: 100px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.form-group input {
+    flex: 1;
+}
+
+.note {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.edit-button {
+    background-color: #ffd633;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.table-margin {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    
+    th, td {
+        padding: 4px;
+    }
+    
+    .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .form-group label {
+        width: 100%;
+        margin-bottom: 3%;
+        text-align: left;
+    }
+    
+    .form-group input {
+        width: 100%;
+        margin-bottom: 3%;
+        
+    }
+    .content {
+    margin-top: 50px; /* Ajuste para dispositivos menores, se necessário */
+    }
+
+    .sidebar {
+        margin-top: 50px; /* Ajuste para dispositivos menores, se necessário */
+    }
+    }
